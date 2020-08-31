@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "";
+}
+@model Nop.Plugin.Feed.Pazaruvaj.Models.FeedPazaruvajModel
+@using Nop.Web.Framework;
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <p>If you have several stored configured (multi-store configuration), then the feed will be generated for the current store.</p>
+    <table class="adminContent">
+        <tr>
+            <td colspan="2" width="100%">
+                <input type="submit" name="save" class="t-button" value="@T("Admin.Common.Save")" />
+                <input type="submit" name="generate" class="t-button" value="Generate feed" />
+            </td>
+        </tr>
+    </table>    
+}

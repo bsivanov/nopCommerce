@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Promotion feeds",
+  "FriendlyName": "Pazaruvaj",
+  "SystemName": "PromotionFeed.Pazaruvaj",
+  "Version": "2.0",
+  "SupportedVersions": [ "4.30" ],
+  "Author": "Borislav Ivanov",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Feed.Pazaruvaj.dll",
+  "Description": "This plugin enables integration with pazaruvaj.com"
+}
